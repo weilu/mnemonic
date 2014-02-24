@@ -1,0 +1,11 @@
+{
+  "name": "mnemonic",
+  "version": "0.0.0",
+  "description": "Encode/Decode passphrases",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Wei Lu",
+  "license": "MIT"
+}
