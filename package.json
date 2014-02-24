@@ -1,7 +1,7 @@
 {
   "name": "mnemonic",
   "version": "0.0.0",
-  "description": "Encode/Decode passphrases",
+  "description": "An implementation of Electrum's mnemonic in JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
