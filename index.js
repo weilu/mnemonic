@@ -29,7 +29,7 @@ function encode(message) {
     var word = message.substr(8*i, 8)
     var hex = parseInt(word, 16)
 
-    if(isNaN(hex)) throw new Error(word + ' is not a valid hex value')
+    if(isNaN(hex)) throw new Error('"' + word + '" is not a valid hex value')
 
     var w1 = mod(hex, n)
     var w2 = mod(div(hex, n) + w1, n)
