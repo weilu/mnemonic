@@ -64,4 +64,10 @@ describe('#encode', function(){
     ]
     assert.deepEqual(wlist, mnemonic.encode('0028644c0028644f0028645200286455'))
   })
+
+  it('throws an exception when the input is not a valid hex string', function(){
+    assert.throws(function(){
+      mnemonic.encode('ghijklmnopq12345')
+    })
+  })
 })
